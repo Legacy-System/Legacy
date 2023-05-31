@@ -1,9 +1,12 @@
 # Legacy
 
+Legacy is a curing system based around server side curing, with an array of intuitive predictive curing. The major goal with this system was to not only remove the burden of having a system that even the newest player can use, it is powerful so that advance users can begin heavily modifying to suit themselves and their playstyle.
+
+
 
 1. You will need to first download Mudlet <a href="https://www.mudlet.org/download/"> Here </a>
 
-If you are new to github, download Legacy <a href="https://github.com/Legacy-System/Legacy/archive/refs/heads/main.zip"> Download Here</a>.
+2. If you are new to github, download Legacy <a href="https://github.com/Legacy-System/Legacy/archive/refs/heads/main.zip"> Download Here</a>.
 
 
 
