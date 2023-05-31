@@ -17,7 +17,19 @@ Legacy is a curing system based around server side curing, with an array of intu
 
 2. If you are new to github, download Legacy <a href="https://github.com/Legacy-System/Legacy/archive/refs/heads/main.zip"> Download Here</a>.
 
-3. 
+3. Navigate to Mudlet -> Package Manger
+
+4. Install New Package -> Navigate to where you saved the Legacy File -> Select it and click open
+
+5. Allow Legacy to install in-game
+
+6. QQ In-Game
+
+7. Close Mudlet
+
+8. Open Mudlet
+
+9. Enjoy!
 
 
 
