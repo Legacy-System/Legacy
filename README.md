@@ -11,4 +11,4 @@
 
 <a href="https://discord.gg/Vx9CpmTy">Discord</a>
 
-We also have a clan in-game if you wished to be invited called Legacy Help Desk (legacyhelp)
+We also have a clan in-game if you wished to be invited. The clan is called - Legacy Help Desk (legacyhelp)
