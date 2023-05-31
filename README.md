@@ -7,7 +7,7 @@ Legacy is a curing system based around server side curing, with an array of intu
 - A UI integration through the EXTRAS function
 - A Limb Tracker integration through the EXTRAS function
 - A Basher integration through the EXTRAS function
-- Trades function that includes Conuration, Inkmilling, and Augmentation (More to come!)
+- Trades function that includes Conjuration, Inkmilling, and Augmentation (More to come!)
 - In-game soundtrack which changes with each you are in, and gives ambient background music.
 
 
