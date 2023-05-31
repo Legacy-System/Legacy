@@ -1,6 +1,9 @@
 # Legacy
 
 
+1. You will need to first download Mudlet <a href="https://www.mudlet.org/download/"> Here </a>
+
+If you are new to github, download Legacy <a href="https://github.com/Legacy-System/Legacy/archive/refs/heads/main.zip"> Download Here</a>.
 
 
 
