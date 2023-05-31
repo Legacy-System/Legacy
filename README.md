@@ -1,6 +1,6 @@
 # Legacy
 
-Legacy is a curing system based around server side curing, with an array of intuitive predictive curing. The major goal with this system was to not only remove the burden of having a system that even the newest player can use, it is powerful so that advance users can begin heavily modifying to suit their playstyle.
+Legacy is a curing system based around server side curing, with an array of intuitive predictive curing. The major goal with this system was to not only remove the burden of having to understand how to code for new players, it is powerful enough so that advance users can begin heavily modifying it to suit their playstyle.
 
 
 
