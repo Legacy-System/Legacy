@@ -12,6 +12,7 @@ Legacy is a curing system based around server side curing, with an array of intu
 
 
 # Installation
+<i>As of right now, Legacy is exclusively a Mudlet only system, we are looking to port it over when we can. </i>
 
 1. You will need to first download Mudlet <a href="https://www.mudlet.org/download/"> Here </a>
 
