@@ -39,6 +39,6 @@ Legacy is a curing system based around server side curing, with an array of intu
 
 <a href="https://github.com/Legacy-System/Legacy/wiki">Legacy Wiki</a>
 
-<a href="https://discord.gg/uDhj8RVD)">Discord</a>
+<a href="https://discord.gg/jVH6hKvMew">Discord</a>
 
 We also have a clan in-game if you wished to be invited. The clan is called - Legacy Help Desk (legacyhelp)
