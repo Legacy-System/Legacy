@@ -16,7 +16,7 @@ Legacy is a curing system based around server side curing, with an array of intu
 
 1. You will need to first download Mudlet <a href="https://www.mudlet.org/download/"> Here </a>
 
-2. If you are new to github, download Legacy <a href="[https://github.com/Legacy-System/Legacy/raw/main/Legacy_Core.mpackage ]"> Download Here</a>.
+2. If you are new to github, download Legacy <a href="https://github.com/Legacy-System/Legacy/raw/main/Legacy_Core.mpackage"> Download Here</a>.
 
 3. Navigate to Mudlet -> Package Manger
 
