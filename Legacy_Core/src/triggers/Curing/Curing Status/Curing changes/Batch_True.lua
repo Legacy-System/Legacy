@@ -1,0 +1,1 @@
+Legacy.Settings.Curing.SS.Settings.batch = true

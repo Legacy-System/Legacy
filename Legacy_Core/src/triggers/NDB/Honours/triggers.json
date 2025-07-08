@@ -1,0 +1,176 @@
+[
+       {
+              "name": "Legacy Hidden Capture",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "50",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) \\((?:female|male) .+\\)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": "",
+              "children": [
+                     {
+                            "name": "getting city",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "no",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "^(?:\\w+) is (?:a|an?) \\w+ in (\\w+)\\.$",
+                                          "type": "regex"
+                                   }
+                            ],
+                            "script": ""
+                     },
+                     {
+                            "name": "getting AR",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "no",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "^(\\w+) is .+\\((\\d+)\\) in the army of (\\w+)\\.$",
+                                          "type": "regex"
+                                   }
+                            ],
+                            "script": ""
+                     },
+                     {
+                            "name": "Honours gag",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "no",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "^(\\w+) is .+$",
+                                          "type": "regex"
+                                   },
+                                   {
+                                          "pattern": "^(\\w+) motto: .+$",
+                                          "type": "regex"
+                                   },
+                                   {
+                                          "pattern": "^(\\w+) bears the arms: .+$",
+                                          "type": "regex"
+                                   },
+                                   {
+                                          "pattern": "^See HONOURS .+$",
+                                          "type": "regex"
+                                   },
+                                   {
+                                          "pattern": "^(\\w+) has been",
+                                          "type": "regex"
+                                   },
+                                   {
+                                          "pattern": "^\\w+ has taken the hand of .+ in marriage\\.$",
+                                          "type": "regex"
+                                   },
+                                   {
+                                          "pattern": "^\\w+ date of birth is hidden by the sand of Aeon\\.",
+                                          "type": "regex"
+                                   }
+                            ],
+                            "script": ""
+                     },
+                     {
+                            "name": "Quisalis",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "no",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "^\\w+ .+ in the Quisalis Mark\\.$",
+                                          "type": "regex"
+                                   },
+                                   {
+                                          "pattern": "^\\w+ is a member of the Quisalis Mark\\.$",
+                                          "type": "regex"
+                                   }
+                            ],
+                            "script": ""
+                     },
+                     {
+                            "name": "Ivory",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "no",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "^\\w+ is a member of the Ivory Mark\\.$",
+                                          "type": "regex"
+                                   },
+                                   {
+                                          "pattern": "^\\w+ .+ in the Ivory Mark\\.$",
+                                          "type": "regex"
+                                   }
+                            ],
+                            "script": ""
+                     },
+                     {
+                            "name": "Prompt close",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "no",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "",
+                                          "type": "prompt"
+                                   }
+                            ],
+                            "script": ""
+                     }
+              ]
+       }
+]

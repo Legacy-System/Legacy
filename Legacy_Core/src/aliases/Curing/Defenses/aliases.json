@@ -1,0 +1,44 @@
+[
+       {
+              "name": "Defense Save",
+              "isActive": "yes",
+              "regex": "^dsave\\s?(.+)?$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Load Saved Def Sets",
+              "isActive": "yes",
+              "regex": "^dset\\s?(.+)?$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Delete a saved Def Set",
+              "isActive": "yes",
+              "regex": "^defdel (.+)$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Defup (Reups saved defences)",
+              "isActive": "yes",
+              "regex": "^defup$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Defences Brief",
+              "isActive": "yes",
+              "regex": "^def$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Keepup",
+              "isActive": "yes",
+              "regex": "^keepup\\s?(.+)?$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

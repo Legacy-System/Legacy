@@ -1,0 +1,16 @@
+[
+       {
+              "name": "Whitelist add and remove",
+              "isActive": "yes",
+              "regex": "^lustlist\\s?(add|remove)?\\s?((\\w+)|\\(none\\))?$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Lustlist on/off",
+              "isActive": "yes",
+              "regex": "^lustlist (on|off)\\s?(agree)?$",
+              "script": "if matches[2] == 'on' and matches[3] == nil then\nsend('allies')\n\ntempTimer(2, [[Legacy.echo('\u003cgreen\u003e\u003cb\u003eAdding currently lusted allies...')]])\ntempTimer(4, [[Legacy.echo('\u003cred\u003e\u003ci\u003eAnyone not currently added to your whitelist will be rejected.')]])\ntempTimer(5, [[Legacy.echo('\u003cred\u003e\u003cb\u003eTo confirm enabling Curing Rejection, please send: \u003cgold\u003elustlist on agree.')]])\n\nelseif matches[2] == 'off' then\nsend('curing rejection off')\nelseif matches[3] == 'agree' then\nsend('curing rejection on')\nend",
+              "isFolder": "no"
+       }
+]

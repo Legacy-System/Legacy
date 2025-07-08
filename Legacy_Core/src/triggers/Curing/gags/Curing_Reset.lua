@@ -1,0 +1,1 @@
+Legacy.echo("Affliction Priorities Reset")

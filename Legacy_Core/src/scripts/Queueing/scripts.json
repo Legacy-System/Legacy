@@ -1,0 +1,26 @@
+[
+       {
+              "name": "Fullstats Queue",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Multi Queue",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Tattoo Queue",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Dor",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       }
+]

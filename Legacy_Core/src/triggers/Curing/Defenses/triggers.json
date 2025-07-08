@@ -1,0 +1,166 @@
+[
+       {
+              "name": "Class switch",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^You are now a member of the (\\w+) class\\.",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Dragon",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "With an ear-splitting roar, you rear back your draconic head and scream out your triumph.",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Lesserform",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^Your race is now that of .+\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "You are not in Dragon form.",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Air Lord/Lady/Fae",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "On and on, your soul cascades upon the currents that now sustain your form.",
+                            "type": "startOfLine"
+                     }
+              ],
+              "script": "if Legacy then\n\n  if not gmcp.Char.Status.class:match('Elemental') then return end\n\n\n  Legacy.Curing.Defs.temp = {defences = {}, keepup = {}}\n  if Legacy.Curing.Defs[\"Air Elemental Lord\"] or Legacy.Curing.Defs[\"Air Elemental Lady\"] or Legacy.Curing.Defs[\"Air Elemental Fae\"]  then\n    if gmcp.Char.Status.gender == 'male' then\n      Dset('Air Elemental Lord')\n    elseif gmcp.Char.Status.gender == 'female' then\n      Dset('Air Elemental Lady')\n    elseif gmcp.Char.Status.gender == 'fae' then\n      Dset('Air Elemental Fae')\n    end\n  else\n    Legacy.bigEcho(\"This is the First time you are using this Class!\", \"SeaGreen\" ,\"red\") \n    Legacy.bigEcho(\"Please use 'keepup' to set up your defences\", \"SeaGreen\", \"red\")\n    if gmcp.Char.Status.gender == 'male' then\n      Dset('Air Elemental Lord')\n      Legacy.Curing.Defs[\"Air Elemental Lord\"] = table.deepcopy(Legacy.Curing.Defs.legacy)\n    elseif gmcp.Char.Status.gender == 'female' then\n      Dset('Air Elemental Lady')\n      Legacy.Curing.Defs[\"Air Elemental Lady\"] = table.deepcopy(Legacy.Curing.Defs.legacy)\n    elseif gmcp.Char.Status.gender == 'fae' then\n      Dset('Air Elemental Fae')\n      Legacy.Curing.Defs[\"Air Elemental Fae\"] = table.deepcopy(Legacy.Curing.Defs.legacy)      \n    end  \n  end\nend\nsend('curing on')"
+       },
+       {
+              "name": "Water Lord/Lady/Fae",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "With a cursory thought, you still your clamorous heart and arise whole, gazing out from within your titanic waters. All around you, above and below, life surges. Every pulse and beat, you feel as your own. By the will of Sllshya, Water is yours to command!",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": "if Legacy then\n\n  if not gmcp.Char.Status.class:match('Elemental') then return end\n\n\n  Legacy.Curing.Defs.temp = {defences = {}, keepup = {}}\n  if Legacy.Curing.Defs[\"Water Elemental Lord\"] or Legacy.Curing.Defs[\"Water Elemental Lady\"] or Legacy.Curing.Defs[\"Water Elemental Fae\"]  then\n    if gmcp.Char.Status.gender == 'male' then\n      Dset('Water Elemental Lord')\n    elseif gmcp.Char.Status.gender == 'female' then\n      Dset('Water Elemental Lady')\n    elseif gmcp.Char.Status.gender == 'fae' then\n      Dset('Water Elemental Fae')\n    end\n  else\n    Legacy.bigEcho(\"This is the First time you are using this Class!\", \"SeaGreen\" ,\"red\") \n    Legacy.bigEcho(\"Please use 'keepup' to set up your defences\", \"SeaGreen\", \"red\")\n    if gmcp.Char.Status.gender == 'male' then\n      Dset('Water Elemental Lord')\n      Legacy.Curing.Defs[\"Water Elemental Lord\"] = table.deepcopy(Legacy.Curing.Defs.legacy)\n    elseif gmcp.Char.Status.gender == 'female' then\n      Dset('Water Elemental Lady')\n      Legacy.Curing.Defs[\"Water Elemental Lady\"] = table.deepcopy(Legacy.Curing.Defs.legacy)\n    elseif gmcp.Char.Status.gender == 'fae' then\n      Dset('Water Elemental Fae')\n      Legacy.Curing.Defs[\"Water Elemental Fae\"] = table.deepcopy(Legacy.Curing.Defs.legacy)      \n    end  \n  end\nend\nsend('curing on')"
+       },
+       {
+              "name": "Earth Lord/Lady/Fae",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "As the earth rises to clad your growing form in a skin of stone, you scream out in triumph, the very blood of Earth surging through your granite veins. By the will of Garash, Earth is yours to command!",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": "if Legacy then\n  if not gmcp.Char.Status.class:match('Elemental') then return end\n  \n  Legacy.Curing.Defs.temp = {defences = {}, keepup = {}}\n  if Legacy.Curing.Defs[\"Earth Elemental Lord\"] or Legacy.Curing.Defs[\"Earth Elemental Lady\"] or Legacy.Curing.Defs[\"Earth Elemental Fae\"]  then\n    if gmcp.Char.Status.gender == 'male' then\n      Dset('Earth Elemental Lord')\n    elseif gmcp.Char.Status.gender == 'female' then\n      Dset('Earth Elemental Lady')\n    elseif gmcp.Char.Status.gender == 'fae' then\n      Dset('Earth Elemental Fae')\n    end\n  else\n    Legacy.bigEcho(\"This is the First time you are using this Class!\", \"SeaGreen\" ,\"red\") \n    Legacy.bigEcho(\"Please use 'keepup' to set up your defences\", \"SeaGreen\", \"red\")\n    if gmcp.Char.Status.gender == 'male' then\n      Dset('Earth Elemental Lord')\n      Legacy.Curing.Defs[\"Earth Elemental Lord\"] = table.deepcopy(Legacy.Curing.Defs.legacy)\n    elseif gmcp.Char.Status.gender == 'female' then\n      Dset('Earth Elemental Lady')\n      Legacy.Curing.Defs[\"Earth Elemental Lady\"] = table.deepcopy(Legacy.Curing.Defs.legacy)\n    elseif gmcp.Char.Status.gender == 'fae' then\n      Dset('Earth Elemental Fae')\n      Legacy.Curing.Defs[\"Earth Elemental Fae\"] = table.deepcopy(Legacy.Curing.Defs.legacy)      \n    end  \n  end\nend\nsend('curing on')"
+       },
+       {
+              "name": "Fire Lord/Lady/Fae",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "With a victorious roar, you bellow your triumph into the firmament. A pillar of flame erupts at your feet and surges forth, searing the ground at your feet. From beneath a vermilion veil, you gaze out upon the world, and all seems as fuel before you. By the will of Kkractle, Fire is yours to command!",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": "if Legacy then\n\n  if not gmcp.Char.Status.class:match('Elemental') then return end\n\n\n  Legacy.Curing.Defs.temp = {defences = {}, keepup = {}}\n  if Legacy.Curing.Defs[\"Fire Elemental Lord\"] or Legacy.Curing.Defs[\"Fire Elemental Lady\"] or Legacy.Curing.Defs[\"Fire Elemental Fae\"]  then\n    if gmcp.Char.Status.gender == 'male' then\n      Dset('Fire Elemental Lord')\n    elseif gmcp.Char.Status.gender == 'female' then\n      Dset('Fire Elemental Lady')\n    elseif gmcp.Char.Status.gender == 'fae' then\n      Dset('Fire Elemental Fae')\n    end\n  else\n    Legacy.bigEcho(\"This is the First time you are using this Class!\", \"SeaGreen\" ,\"red\") \n    Legacy.bigEcho(\"Please use 'keepup' to set up your defences\", \"SeaGreen\", \"red\")\n    if gmcp.Char.Status.gender == 'male' then\n      Dset('Fire Elemental Lord')\n      Legacy.Curing.Defs[\"Fire Elemental Lord\"] = table.deepcopy(Legacy.Curing.Defs.legacy)\n    elseif gmcp.Char.Status.gender == 'female' then\n      Dset('Fire Elemental Lady')\n      Legacy.Curing.Defs[\"Fire Elemental Lady\"] = table.deepcopy(Legacy.Curing.Defs.legacy)\n    elseif gmcp.Char.Status.gender == 'fae' then\n      Dset('Fire Elemental Fae')\n      Legacy.Curing.Defs[\"Fire Elemental Fae\"] = table.deepcopy(Legacy.Curing.Defs.legacy)      \n    end  \n  end\nend\nsend('curing on')"
+       },
+       {
+              "name": "Prevail failed",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "You cease prevailing upon your elemental might.",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": ""
+       }
+]

@@ -1,0 +1,9 @@
+[
+       {
+              "name": "smudging",
+              "isActive": "yes",
+              "regex": "^smudge$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

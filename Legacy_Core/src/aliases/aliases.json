@@ -1,0 +1,9 @@
+[
+       {
+              "name": "Targetting",
+              "isActive": "yes",
+              "regex": "^st (.+)$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

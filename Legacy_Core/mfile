@@ -1,0 +1,10 @@
+{
+       "package": "Legacy V2.1",
+       "title": "The Legacy Curing System",
+       "description": "",
+       "version": "",
+       "author": "The Legacy Team",
+       "icon": "legacy logo.jpg",
+       "dependencies": "",
+       "outputFile": false
+}

@@ -1,0 +1,22 @@
+[
+       {
+              "name": "Check for Updates",
+              "isActive": "yes",
+              "command": "",
+              "hours": "0",
+              "minutes": "30",
+              "seconds": "0",
+              "milliseconds": "0",
+              "script": ""
+       },
+       {
+              "name": "Double checking everything is loaded",
+              "isActive": "no",
+              "command": "",
+              "hours": "0",
+              "minutes": "0",
+              "seconds": "20",
+              "milliseconds": "0",
+              "script": ""
+       }
+]

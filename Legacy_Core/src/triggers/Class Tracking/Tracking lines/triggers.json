@@ -1,0 +1,1162 @@
+[
+       {
+              "name": "Alchemist",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A diminutive homunculus resembling (\\w+) stares menacingly at you, its eyes flashing brightly\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) glowers at you with a look of repressed disgust before making a slight gesture toward you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^A short convulsion sweeps through your body as (\\w+) wracks your \\w+ humour\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^A short convulsion sweeps through your body as (\\w+) wracks your \\w+ and \\w+ humours\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^A low growl echoes from a diminutive homunculus resembling (\\w+)'s throat, and blood begins flowing from your nose\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^A diminutive homunculus resembling (\\w+) turns its head towards you, its jaws opening wider than what seems possible\\. The homunculus stares intently at you and lets out an ear-piercing shriek that disrupts your thoughts\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) waves a hand in your direction and you feel energy wreathing about you\\. A strong burning sensation rushes through your body\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) waves a hand in your direction and you feel energy wreathing about you\\. Small patches of your skin waver before turning into shards of sharp glass\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Sublimation",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^Your .+ (?:are|is) wracked by residual energy\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Apostate",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) stares at you, giving you the evil eye\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Your .+ defence has been stripped by (\\w+)'s Baalzadeen\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+)'s Baalzadeen casts a piercing glance at you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With a snarl, (\\w+)'s Baalzadeen opens its mouth and spews a foul black liquid all over you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Before you can avoid it, (\\w+)'s hand brushes against your arm and it withers away\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^You watch in horror as (\\w+) touches your \\w+ arm, and it shrivels away to uselessness\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) reaches out and grabs your leg, which almost gives way underneath you as it shrivels feebly away\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^You stumble slightly as (\\w+) touches your \\w+ leg, and it shrivels away\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Bard",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+)'s paean slams into you with all the weight of history's greatest triumphs.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With a flourish of .+ (\\w+) steps in close, \\w+ blade slicing at your .+.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": " ^(\\w+)'s refrain leaves you gasping for breath.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Blademaster",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^As (\\w+) draws (\\w+) (\\w+) from its scabbard, (\\w+) drives the pommel into your chin\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) unleashes a vicious slash towards you before resheathing (\\w+) blade, (\\w+) (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^In a single motion, (\\w+) draws (\\w+) (\\w+) from its scabbard and looses a vicious (\\w+) slash at your (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Spinning to the \\w+ as (\\w+) draws (\\w+) (\\w+) from its sheath, (\\w+) delivers a precise slash across your arms\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With a smooth lunge to the \\w+, (\\w+) draws (\\w+) (\\w+) from its scabbard and delivers a powerful slash across your legs\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Depthswalker",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) delivers a lightning-fast strike to you with (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) lays into you with a savage blow from (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) raises (.+) and points it at you with a sinister smile\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Dragon",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A heavy burden descends upon your soul as (\\w+) lays the ancient Dragoncurse upon you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) lunges forward with long, flashing claws extended, tearing down to the bones of your (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) snaps (\\w+) massive jaws close around you, flinging you effortlessly into the air before catching you with a second powerful bite\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) turns to fix (\\w+) gaze upon you, and you feel your heart increase its palpitations as a low keening echoes from (\\w+) throat\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^You are knocked forcefully off your feet by the impact of (\\w+)'s huge tail\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Druid",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^The fire on the hands of (\\w+) jumps to you, setting you ablaze\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With a synchronous, guttural rasp, (\\w+)'s many serpentine heads breathe forth wisps of rapidlycondensing smoke that entangle you in a tangible web\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) sinks (\\w+) vicious fangs deep into your body, ravaging your flesh\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Quicker than you can follow, one of (\\w+)'s serpentine heads darts forward to snap at your flesh\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With \\w+ deadly tail, (\\w+) strikes out at you and stings you\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Infernal",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^You feel sickened and weak by the aura of death emanating from (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Your very blood rebels against the profane touch of (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Pain becomes a familiar foe as (\\w+) reaches out and grasps you by your left arm and right arm, violently hoisting you into the air before cruelly twisting and wrenching at your fragile bones\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Jester",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^With an appraising glance at you, (\\w+) shapes the arms and legs of a rough puppet\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) glances at you while adding some facial detail to a puppet\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) looks closely at your hands and alters a puppet\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) looks at your eyes and makes some alterations to (\\w+) puppet\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With one hand ominously pointed towards you, (\\w+) rubs a finger over the heart of a puppet\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Magi",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) weaves earth and water and a torrent of thick sticky mud thunders forth to roll over you and knocking you off your feet.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) clicks \\w+ fingers and a bolt of lightning strikes from the air in a fulminous flash to transfix you.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) makes no motion or word, but a roiling nausea rolls through you, a terrible dizziness and rejection as bile fills the back of your throat.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) makes the slightest flick with an elemental staff, and a deluge of freezing water descends like the hand of some angered titan to smash you with a hammer colder than the oldest grave.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": " ^A wave of heat rolls over you from the direction of (\\w+), and flames ignite upon your skin.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Monk Shik",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) whips (.+) in a long sweep at your legs\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Stepping forward, (\\w+) drives (.+) into your (.+)\\.",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) spins a full rotation, bringing (.+) around in a blur to crash into your (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) lashes out with a high kick at your (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Bracing \\w+ back foot, (\\w+) lunges forward with a knotted willow staff at your (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Continuing \\w+ kata, (\\w+) spins a knotted willow staff in (\\w+) hands before driving it in a swiftthrust towards your (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Snapping back into a ready stance, (\\w+) whips a knotted willow staff in a wide arc at your (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Spinning on one foot (\\w+) drives a knotted willow staff into your (.+) with a lightning-fast thrust\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Snapping \\w+ leg out to its full extent, (\\w+) drives a heel into your (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) lashes out with a straight kick at you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Whirling around, (\\w+) drives the ball of his foot into your ribs\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) flows around you like water, a knotted willow staff lashing out in a swift thrust at yourvulnerable kidneys\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Monk Tekura",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) pumps out at you with a powerful side kick.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) unleashes a powerful hook towards you.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) launches a powerful uppercut at you.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) forms a spear hand and stabs out at you.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) balls up one fist and hammerfists you.$",
+                            "type": "substring"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Occultist",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) draws back with a knowing smirk and utters some alien word that vibrates deep within your bones\\. Your mind swirls and body convulses in excruciating pain as your very spirit cries out in agony\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) passes (\\w+) hand in front of you\\. You feel an invisible claw brush the back of your skull\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) lowers (\\w+) eyes and an unearthly image appears before you\\. Unable to accept what this vision means, your thoughts become jumbled\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) speaks something in an unknown and impossible language\\. Unable to process the alien images these words induce, your thoughts become jumbled\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) utters a terrible curse and points a finger at you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) gestures sharply in your direction, and a mass of green slime flows up and over you, coating your skin\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Seven rays of different coloured light spring out from (\\w+)'s outstretched hands, irradiating the location with blinding strobes\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) sends an icy blue tendril of light that lashes out at you and wraps around you, sending a strange chill deep into your bones\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) makes a sharp motion with one hand in your direction, the briefest flicker of something crackling between (\\w+) digits\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Before you can avoid it, (\\w+) hand brushes against your (\\w+) and it withers away\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) makes a sudden, quick gesture in front of you, almost hitting your nose\\. (\\w+) hand glows with a vibrant violet light before snapping back to (\\w+) side\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Paladin",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^As fire surges about the righteous (\\w+), a terrible heat fills your chest, a scorching pain that threatens to scour you from Creation\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) is outlined in a nimbus of fire for an instant as (\\w+) glares at you, but it abruptly winks out\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^A nimbus of flame blazes about (\\w+) as (\\w+) turns (\\w+) righteousness upon you.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^.+ flares with brilliant flame as (\\w+) lunges for you!$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Fire burns in the eyes of (\\w+) as (\\w+) turns (\\w+) righteous attention towardsyou.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) whispers a prayer to the Righteous Fire, and white flame bursts into Creation to scour your blight away\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^At the command of (\\w+) a beam of radiance strikes down from on high, transfixing you with its relentless glare.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Pariah",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) sweeps (.+) in a circle above (\\w+) head, the point of the blade coming to rest aimed at you. You feel a sharp pain, gone as swiftly as it came, and a fine crimson spray falls about you and (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) raises (\\w+) left hand in front of you, clenching it into a fist, your body spasming under some arcane assault\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+)'s hand lashes out, (\\w+) glittering ritual blade flashing as drops of crimson blood land upon its ensorceled blade\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) traces a logograph (.+) in the air before you, the blood upon his knife bursting into arcane flame as it hangs in the wake of the blade's passage\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Priest",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) utters a prayer and smites your (.+) with (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^\"Repent for your crimes!\" (\\w+) denounces you, hand raised in warding\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Your .+ defence has been stripped by (\\w+)'s guardian angel\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+)'s guardian angel's eyes glow like embers as searing heat pours over you, causing you to burst into flames\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) draws you into (\\w+) gaze, lowering (\\w+) brow and glaring at you with righteous fury\\. Pointing at you with a single raised finger, (\\w+) recites a list of your transgressions, condemning your actions and words\\. A blaze of holy fire surges about (\\w+) as (\\w+) dictates your sentence\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Psion",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A sharp pain across your throat and a sudden lack of breath comes moments before you register the retreat of (\\w+), bloody dagger in hand\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Your \\w+ arm flops uselessly as (\\w+) severs the muscles in it with a precise blow of (\\w+) translucent sword\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) delivers a series of lashes against you with a translucent lash, and your muscles grow weak,lethargy overcoming you in a rush\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) delivers a series of lashes against you with a translucent lash, and your thoughts scatterlike leaves on the wind\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With a brutal thrust of a translucent sword, (\\w+) sinks (\\w+) weapon into your guts, ripping it freein a spray of crimson\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Stars explode in front of your eyes as (\\w+) smashes a translucent mace into the side of your head\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) gives a great shout of exertion as (\\w+) eyes lock with yours, and a terrible pain explodeswithin your skull, your vision blacking out and your skull feeling like it shall burst apart at anymoment\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^A terrible weariness overcomes you as (\\w+) darts out (\\w+) blade and drives the tip into you justbeneath your right shoulder\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) ducks low, (\\w+) blade slicing into your (.+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Runewarden",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^Cold blue flames wreathe (\\w+)'s runeblade, emanating an icy chill that penetrates you to the bone\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Sentinel",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) viciously gouges your (.+) with (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) whips (.+) in a swift motion toward you, scything through your (.+) defence\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) swiftly sweeps your feet out from beneath you with (.+) before driving the point of the weapon into your (?:right|left) leg\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) deftly hooks (.+) behind your foot and sends you tumbling off (.+) before driving the point of the weapon into your (?:right|left) leg\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) draws (.+) in an expert lateral slice across your (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) viciously lacerates your (.+) with (.+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Serpent",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) flays away your aura of rebounding defence\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) sinks (\\w+) fangs into your body and you wince in pain\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) quickly pricks you with (\\w+) dirk\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) leaps from the shadows and plunges a dagger into your unsuspecting back!$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Shaman",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) points an imperious finger at you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With an appraising glance at you, (\\w+) shapes the arms and legs of a rough doll\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) glances at you while adding some facial detail to a doll\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) looks at your eyes and makes some alterations to (\\w+) doll\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) looks closely at your hands and alters a Vodun doll\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With one hand ominously pointed towards you, (\\w+) rubs a finger over the heart of a Vodun doll\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Sylvan",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) gestures sharply in your direction with one hand, and invisible whips viciously lash at you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) summons a blade of condensed air and shears cleanly through the magical shield surrounding you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Your body locks in paralysis as a burst of arcane power floods your system, directed by (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Your ears are abruptly filled with the shockingly loud clap of nearby thunder, summoned forth by (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^More a physical blow than a simple sound, the shocking thunderclap summoned forth by (\\w+) leaves you reeling\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Sweat breaking out on the forehead of (\\w+) is your only warning before a bolt of lightning leaps down from on high, slamming into you and electrifying every nerve in a synchronised wave of agony\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Drawing \\w+ up to \\w+ full height, (\\w+) throws (\\w+) arms wide\\. The clouds above roil, then bolt after bolt of incandescent lightning falls upon you\\. The world becomes nothing but light and pain\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Unnamable",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A wall of sound slams into you, a terrible symphony of something undescribably wrong as each of the mouths that have torn open upon the body of (\\w+) howl in silent wrath\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^\\w+ eyes rolling back in \\w+ skull, (\\w+) opens \\w+ true mouth and speaks something so unnatural that your entire body rebels against the horror given voice\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^The myriad mouths that have torn open upon the body of (\\w+) croon in profane symphony toyou, a choir of entropic whispers which sets your bones to shuddering\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) whispers words so anathema to you that you feel your mind fracturing at the very knowing, each twisted syllable threatening to sweep away the very essence that composes you\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "2H",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) brings (.+) down upon you with a brutal overhand blow\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) explodes upward from a low crouch, driving (.+) toward your (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) drops into a low crouch, sweeping (.+) beneath your guard and tangling it with your legs\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "DwC",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) slashes into your .+ with (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "Lightning-quick, (\\w+) jabs your .+ with (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) swings (.+) at your .+ with all (\\w+) might\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "SnB",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) quickly lunges to the side, bringing (\\w+) shield around to smash into your spine\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^The blade of (\\w+) is a blur as (\\w+) moves forward, slicing into you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) drives the edge of (\\w+) shield into your throat, cutting off your air supply\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "DwB",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) whips (.+) toward your (.+)\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Airlord",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) casts a hand out in your direction, an icy zephyr descending upon you to tear your fortitude away\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) studies you intently, the howling winds that surround (\\w+) stilling for a moment\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Earthlord",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(\\w+) rains a flurry of blows down upon you with (\\w+) great stone fists\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) swings a magma-wreathed fist at you, but you duck aside at the last moment\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) brings a magma-wreathed fist around impossibly fast, driving it clean through your magical shield in an explosion of translucent shards\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^(\\w+) slams a foot to the ground, great tremors radiating out from the impact\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^With a terrible roar (\\w+) whips a colossal fist at your (.+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Cloaked in a shifting mantle of molten stone, (\\w+) charges in from the (\\w+) with a deafening roar\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Firelord",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^A whip of flame coalesces in the hand of (\\w+), with which (\\w+) viciously lashes you\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^The flames that are the eyes of (\\w+) flare as (\\w+) rakes them across you in an imperious glare\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Waterlord",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^The amorphous form of (\\w+) trembles, some of the liquid composing it falling away from the greater whole\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^A sudden deluge of shockingly cold water drenches you, robbing you of strength by the will of (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^You double over and hack up water beneath the pitiless gaze of (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^You feel suddenly light-headed as ripples race across the amorphous form of (\\w+)\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^A wave of nausea rolls over you as (\\w+) casually waves a hand in your direction\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Dual detector",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "",
+                            "type": "prompt"
+                     }
+              ],
+              "script": ""
+       }
+]

@@ -1,0 +1,1 @@
+disableTrigger("Add by name")

@@ -1,0 +1,226 @@
+[
+       {
+              "name": "Breathing",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^\\w+ exhales loudly\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^\\w+ inhales and begins holding \\w+ breath\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "You inhale deeply and begin holding your breath.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You cease holding your breath and exhale loudly.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "[Curing]: HOLD BREATH",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "Inhaling underwater? Are you mad?",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You are breathing lightly.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You have recovered your wind and are breathing normally on",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You are panting softly.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You are panting heavily.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You are breathing heavily.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You have recovered your wind and are breathing normally once again.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "Inhaling underwater? Are you mad?",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You are gasping for breath.",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Queue Alerts",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^(.+) was added to your (balance|equilibrium|class) queue\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "3p Trades",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^Carefully closing the lid on .+, \\w+ begins to slowly turn the handle on top, grinding and combining the contents\\.$",
+                            "type": "regex"
+                     },
+                     {
+                            "pattern": "^Gaining momentum, \\w+ turns the handle on .+, the contents providing less resistance to \\w+ efforts\\.$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Common gags",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "Now now, don't be so hasty!",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "Server-side queueing is already enabled.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "Will now show when actions are added to your balance queues.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You already have the KILL warning deactivated.",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "No more smiles",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "17",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": " ..o@@@@@@@@@@@@@o..",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Config gags",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "You have set your screen width to 0, which should disable wrapping completely.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You will now attempt to automatically unlock and open any doors in your way during normal movement.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You are already seeing universal affliction messages.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You will now see advanced curing options under the CURING COMMAND.",
+                            "type": "exactMatch"
+                     },
+                     {
+                            "pattern": "You are already viewing advanced curing options.",
+                            "type": "exactMatch"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "Attack Gag",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "^Alias \"attk\" will now execute: .+$",
+                            "type": "regex"
+                     }
+              ],
+              "script": ""
+       }
+]

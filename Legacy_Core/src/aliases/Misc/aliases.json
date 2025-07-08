@@ -1,0 +1,65 @@
+[
+       {
+              "name": "update",
+              "isActive": "yes",
+              "regex": "^update$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Feedback",
+              "isActive": "yes",
+              "regex": "^feedback (.+)$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Ideas",
+              "isActive": "yes",
+              "regex": "^(lideas|Lideas|lidea|Lidea)\\s(.+)$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Other Packages",
+              "isActive": "yes",
+              "regex": "^extras$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Dragonform",
+              "isActive": "yes",
+              "regex": "^dform\\s?(\\w+)?$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Go to person",
+              "isActive": "yes",
+              "regex": "^gtp$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "DOR",
+              "isActive": "yes",
+              "regex": "^dor\\s?(.+)?$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Embrace death",
+              "isActive": "yes",
+              "regex": "^(embrace death|edeath)$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Prevail",
+              "isActive": "yes",
+              "regex": "^prevail$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

@@ -1,0 +1,16 @@
+[
+       {
+              "name": "Vlist",
+              "isActive": "yes",
+              "regex": "^vlist$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Elist",
+              "isActive": "yes",
+              "regex": "^elist$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

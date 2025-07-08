@@ -1,0 +1,50 @@
+[
+       {
+              "name": "DefRemove",
+              "isActive": "yes",
+              "eventHandlerList": [
+                     "gmcp.Char.Defences.Remove"
+              ],
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "DefAdd",
+              "isActive": "yes",
+              "eventHandlerList": [
+                     "gmcp.Char.Defences.Add"
+              ],
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Defenses that need a bit more",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Armour",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Defup",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Defense Set (Dset)",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Keepup from Veera",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       }
+]

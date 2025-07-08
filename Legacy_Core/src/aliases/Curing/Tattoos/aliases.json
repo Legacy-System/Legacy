@@ -1,0 +1,16 @@
+[
+       {
+              "name": "fixtats",
+              "isActive": "yes",
+              "regex": "^fixtats$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Inking",
+              "isActive": "yes",
+              "regex": "^ink (\\w+) on .+$",
+              "script": "",
+              "isFolder": "no"
+       }
+]

@@ -1,0 +1,23 @@
+[
+       {
+              "name": "Lock Prompt",
+              "isActive": "yes",
+              "regex": "^lock\\s?prompt$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Prompt Toggle",
+              "isActive": "yes",
+              "regex": "^lprompt$",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Prompt",
+              "isActive": "yes",
+              "regex": "^(?:prompt|Prompt)\\s?(\\w+)?$",
+              "script": "",
+              "isFolder": "no"
+       }
+]
