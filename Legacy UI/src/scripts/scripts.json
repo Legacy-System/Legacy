@@ -1,0 +1,14 @@
+[
+       {
+              "name": "UI Setup",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       },
+       {
+              "name": "Chat Box Messages",
+              "isActive": "yes",
+              "script": "",
+              "isFolder": "no"
+       }
+]

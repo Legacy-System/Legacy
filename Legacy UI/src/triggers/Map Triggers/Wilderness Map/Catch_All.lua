@@ -1,0 +1,6 @@
+selectCurrentLine()
+copy()
+wilderness_map_container:show()
+Map:hide()
+appendBuffer("Ocean")
+deleteLine()

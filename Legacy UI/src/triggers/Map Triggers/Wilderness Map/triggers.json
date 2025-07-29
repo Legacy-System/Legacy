@@ -1,0 +1,184 @@
+[
+       {
+              "name": "GMCP Map",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "return gmcp.Room",
+                            "type": "lua"
+                     }
+              ],
+              "script": "",
+              "children": [
+                     {
+                            "name": "GMCP Rooms",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "yes",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "return gmcp.Room.Info.num \u003c 2121028",
+                                          "type": "lua"
+                                   },
+                                   {
+                                          "pattern": "return gmcp.Room.Info.num \u003e 0",
+                                          "type": "lua"
+                                   }
+                            ],
+                            "script": ""
+                     },
+                     {
+                            "name": "Wilderness",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "yes",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "return gmcp.Room.Info.num \u003e 2121028",
+                                          "type": "lua"
+                                   },
+                                   {
+                                          "pattern": "return gmcp.Room.Info.coords==\"\"",
+                                          "type": "lua"
+                                   }
+                            ],
+                            "script": "",
+                            "children": [
+                                   {
+                                          "name": "Catch All",
+                                          "isActive": "yes",
+                                          "isFolder": "no",
+                                          "multiline": "no",
+                                          "multilineDelta": "0",
+                                          "matchall": "no",
+                                          "filter": "no",
+                                          "fireLength": "0",
+                                          "highlight": "no",
+                                          "highlightFG": "#ff0000",
+                                          "highlightBG": "#ffff00",
+                                          "patterns": [
+                                                 {
+                                                        "pattern": "^[ wnmjSIMXWYx',;\u0026\\\\#=@~%/!\\-\\.\\^\\|\\*\\?\\+\\(]+$",
+                                                        "type": "regex"
+                                                 }
+                                          ],
+                                          "script": ""
+                                   }
+                            ]
+                     },
+                     {
+                            "name": "Ocean",
+                            "isActive": "yes",
+                            "isFolder": "no",
+                            "multiline": "yes",
+                            "multilineDelta": "0",
+                            "matchall": "no",
+                            "filter": "no",
+                            "fireLength": "0",
+                            "highlight": "no",
+                            "highlightFG": "#ff0000",
+                            "highlightBG": "#ffff00",
+                            "patterns": [
+                                   {
+                                          "pattern": "return gmcp.Room.Info.environment=='Vessel'",
+                                          "type": "lua"
+                                   },
+                                   {
+                                          "pattern": "return gmcp.Room.Info.num==-2",
+                                          "type": "lua"
+                                   }
+                            ],
+                            "script": "",
+                            "children": [
+                                   {
+                                          "name": "Catch All",
+                                          "isActive": "yes",
+                                          "isFolder": "no",
+                                          "multiline": "no",
+                                          "multilineDelta": "0",
+                                          "matchall": "no",
+                                          "filter": "no",
+                                          "fireLength": "0",
+                                          "highlight": "no",
+                                          "highlightFG": "#ff0000",
+                                          "highlightBG": "#ffff00",
+                                          "patterns": [
+                                                 {
+                                                        "pattern": "^[ wnmjSIMXWYx',;\\\\#=@~%/!\\-\\.\\^\\|\\*\\?\\+\\(]+$",
+                                                        "type": "regex"
+                                                 }
+                                          ],
+                                          "script": ""
+                                   }
+                            ]
+                     }
+              ]
+       },
+       {
+              "name": "Ship Room Detected",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "The ship moves",
+                            "type": "startOfLine"
+                     },
+                     {
+                            "pattern": "The ship drifts",
+                            "type": "startOfLine"
+                     }
+              ],
+              "script": ""
+       },
+       {
+              "name": "New trigger",
+              "isActive": "yes",
+              "isFolder": "no",
+              "multiline": "no",
+              "multilineDelta": "0",
+              "matchall": "no",
+              "filter": "no",
+              "fireLength": "0",
+              "highlight": "no",
+              "highlightFG": "#ff0000",
+              "highlightBG": "#ffff00",
+              "patterns": [
+                     {
+                            "pattern": "",
+                            "type": "prompt"
+                     }
+              ],
+              "script": ""
+       }
+]
