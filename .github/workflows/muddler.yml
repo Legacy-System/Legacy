@@ -1,0 +1,78 @@
+name: Conditional Build Per Directory
+
+on:
+  push:
+    branches: [ muddler ]
+  pull_request:
+    branches: [ muddler ]
+
+jobs:
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      legacy-ui: ${{ steps.filter.outputs.legacy-ui }}
+      legacy-core: ${{ steps.filter.outputs.legacy-core }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine changed directories
+        id: filter
+        run: |
+          echo "Checking for changes in Legacy UI and Legacy Core..."
+          CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
+          echo "$CHANGED_FILES"
+
+          if echo "$CHANGED_FILES" | grep -q '/Legacy_UI/'; then
+            echo "legacy-ui=true" >> $GITHUB_OUTPUT
+          else
+            echo "legacy-ui=false" >> $GITHUB_OUTPUT
+          fi
+
+          if echo "$CHANGED_FILES" | grep -q '/Legacy_Core/'; then
+            echo "legacy-core=true" >> $GITHUB_OUTPUT
+          else
+            echo "legacy-core=false" >> $GITHUB_OUTPUT
+          fi
+
+  build-legacy-ui:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.legacy-ui == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Muddle Legacy UI
+        uses: demonnic/build-with-muddler@main
+        with:
+          muddlerVersion: "LATEST"
+          workingDir: ./Legacy_UI # optional, default is ${{ github.workspace }}
+
+      - name: Upload Legacy UI Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: legacy-ui
+          path: ./Legacy_UI/build/tmp/
+
+          
+
+  build-legacy-core:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.legacy-core == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Muddle Legacy Core
+        uses: demonnic/build-with-muddler@main
+        with:
+          muddlerVersion: "LATEST"
+          workingDir: ./Legacy_Core # optional, default is ${{ github.workspace }}
+
+      - name: Upload Legacy Core Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: legacy-core
+          path: ./Legacy_Core/build/tmp/
