@@ -293,15 +293,15 @@
               "highlightBG": "#ffff00",
               "patterns": [
                      {
-                            "pattern": "^You feel sickened and weak by the aura of death emanating from (\\w+)\\.$",
+                            "pattern": "^(\\w+) utters a low chant and hundreds of sickly white maggots dig their way out of the earth, squirming over one another to spread out across the ground in a putrid mass\\.$",
                             "type": "regex"
                      },
                      {
-                            "pattern": "^Your very blood rebels against the profane touch of (.+)\\.$",
+                            "pattern": "^(\\w+) raises a .+ above \\w+ head, necromantic energy flickering wildly about the weapon. Then \\w+ drives it down into the ground at \\w+ feet in a muted flash\\.$",
                             "type": "regex"
                      },
                      {
-                            "pattern": "^Pain becomes a familiar foe as (\\w+) reaches out and grasps you by your left arm and right arm, violently hoisting you into the air before cruelly twisting and wrenching at your fragile bones\\.$",
+                            "pattern": "^Pain becomes a familiar foe as (\\w+) reaches out and grasps you by your .+ and .+, violently hoisting you into the air before cruelly twisting and wrenching at your fragile bones\\.$",
                             "type": "regex"
                      }
               ],
