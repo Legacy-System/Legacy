@@ -25,13 +25,13 @@ jobs:
           CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
           echo "$CHANGED_FILES"
 
-          if echo "$CHANGED_FILES" | grep -q '/Legacy_UI/'; then
+          if echo "$CHANGED_FILES" | grep -q 'Legacy_UI/'; then
             echo "legacy-ui=true" >> $GITHUB_OUTPUT
           else
             echo "legacy-ui=false" >> $GITHUB_OUTPUT
           fi
 
-          if echo "$CHANGED_FILES" | grep -q '/Legacy_Core/'; then
+          if echo "$CHANGED_FILES" | grep -q 'Legacy_Core/'; then
             echo "legacy-core=true" >> $GITHUB_OUTPUT
           else
             echo "legacy-core=false" >> $GITHUB_OUTPUT
